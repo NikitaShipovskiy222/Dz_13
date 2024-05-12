@@ -10,9 +10,21 @@
 		016062972BF0C0480063D4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062962BF0C0480063D4A3 /* AppDelegate.swift */; };
 		016062992BF0C0480063D4A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062982BF0C0480063D4A3 /* SceneDelegate.swift */; };
 		0160629B2BF0C0480063D4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160629A2BF0C0480063D4A3 /* ViewController.swift */; };
-		0160629E2BF0C0480063D4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0160629C2BF0C0480063D4A3 /* Main.storyboard */; };
 		016062A02BF0C0490063D4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0160629F2BF0C0490063D4A3 /* Assets.xcassets */; };
 		016062A32BF0C0490063D4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016062A12BF0C0490063D4A3 /* LaunchScreen.storyboard */; };
+		016062AC2BF0C1050063D4A3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062AB2BF0C1050063D4A3 /* Model.swift */; };
+		016062AE2BF0C1960063D4A3 /* ModelSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062AD2BF0C1960063D4A3 /* ModelSection.swift */; };
+		016062B12BF0C3700063D4A3 /* UIView.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062B02BF0C3700063D4A3 /* UIView.ext.swift */; };
+		016062B62BF0C6580063D4A3 /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062B52BF0C6580063D4A3 /* IconCollectionViewCell.swift */; };
+		016062B92BF0C66F0063D4A3 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062B82BF0C66F0063D4A3 /* CellProtocol.swift */; };
+		016062BB2BF0C7630063D4A3 /* NextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062BA2BF0C7630063D4A3 /* NextCollectionViewCell.swift */; };
+		016062BD2BF0CB650063D4A3 /* MakeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062BC2BF0CB650063D4A3 /* MakeCircle.swift */; };
+		016062BF2BF0D6310063D4A3 /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062BE2BF0D6310063D4A3 /* BackViewController.swift */; };
+		016062C12BF0D64C0063D4A3 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062C02BF0D64C0063D4A3 /* NextViewController.swift */; };
+		016062CC2BF101C50063D4A3 /* UbuntuMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 016062C32BF101C50063D4A3 /* UbuntuMedium.ttf */; };
+		016062CE2BF101C50063D4A3 /* UbuntuRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 016062C52BF101C50063D4A3 /* UbuntuRegular.ttf */; };
+		016062CF2BF101C50063D4A3 /* UbuntuBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 016062C62BF101C50063D4A3 /* UbuntuBold.ttf */; };
+		016062D62BF108020063D4A3 /* Font.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016062D52BF108020063D4A3 /* Font.ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +32,22 @@
 		016062962BF0C0480063D4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016062982BF0C0480063D4A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0160629A2BF0C0480063D4A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0160629D2BF0C0480063D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0160629F2BF0C0490063D4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016062A22BF0C0490063D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016062A42BF0C0490063D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016062AB2BF0C1050063D4A3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		016062AD2BF0C1960063D4A3 /* ModelSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSection.swift; sourceTree = "<group>"; };
+		016062B02BF0C3700063D4A3 /* UIView.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.ext.swift; sourceTree = "<group>"; };
+		016062B52BF0C6580063D4A3 /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
+		016062B82BF0C66F0063D4A3 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
+		016062BA2BF0C7630063D4A3 /* NextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextCollectionViewCell.swift; sourceTree = "<group>"; };
+		016062BC2BF0CB650063D4A3 /* MakeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCircle.swift; sourceTree = "<group>"; };
+		016062BE2BF0D6310063D4A3 /* BackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
+		016062C02BF0D64C0063D4A3 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		016062C32BF101C50063D4A3 /* UbuntuMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UbuntuMedium.ttf; sourceTree = "<group>"; };
+		016062C52BF101C50063D4A3 /* UbuntuRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UbuntuRegular.ttf; sourceTree = "<group>"; };
+		016062C62BF101C50063D4A3 /* UbuntuBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UbuntuBold.ttf; sourceTree = "<group>"; };
+		016062D52BF108020063D4A3 /* Font.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,76 @@
 		016062952BF0C0480063D4A3 /* Dz_13 */ = {
 			isa = PBXGroup;
 			children = (
+				016062C22BF101C50063D4A3 /* UbuntuFont */,
+				016062AF2BF0C35B0063D4A3 /* Ext */,
+				016062B32BF0C6060063D4A3 /* Screen */,
+				016062AA2BF0C0F90063D4A3 /* Model */,
 				016062962BF0C0480063D4A3 /* AppDelegate.swift */,
 				016062982BF0C0480063D4A3 /* SceneDelegate.swift */,
-				0160629A2BF0C0480063D4A3 /* ViewController.swift */,
-				0160629C2BF0C0480063D4A3 /* Main.storyboard */,
 				0160629F2BF0C0490063D4A3 /* Assets.xcassets */,
 				016062A12BF0C0490063D4A3 /* LaunchScreen.storyboard */,
 				016062A42BF0C0490063D4A3 /* Info.plist */,
 			);
 			path = Dz_13;
+			sourceTree = "<group>";
+		};
+		016062AA2BF0C0F90063D4A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				016062AB2BF0C1050063D4A3 /* Model.swift */,
+				016062AD2BF0C1960063D4A3 /* ModelSection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		016062AF2BF0C35B0063D4A3 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				016062B02BF0C3700063D4A3 /* UIView.ext.swift */,
+				016062BC2BF0CB650063D4A3 /* MakeCircle.swift */,
+				016062D52BF108020063D4A3 /* Font.ext.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		016062B32BF0C6060063D4A3 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				016062B42BF0C61F0063D4A3 /* Cell */,
+				0160629A2BF0C0480063D4A3 /* ViewController.swift */,
+				016062BE2BF0D6310063D4A3 /* BackViewController.swift */,
+				016062C02BF0D64C0063D4A3 /* NextViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		016062B42BF0C61F0063D4A3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				016062B72BF0C6630063D4A3 /* Protocol */,
+				016062B52BF0C6580063D4A3 /* IconCollectionViewCell.swift */,
+				016062BA2BF0C7630063D4A3 /* NextCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		016062B72BF0C6630063D4A3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				016062B82BF0C66F0063D4A3 /* CellProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		016062C22BF101C50063D4A3 /* UbuntuFont */ = {
+			isa = PBXGroup;
+			children = (
+				016062C32BF101C50063D4A3 /* UbuntuMedium.ttf */,
+				016062C52BF101C50063D4A3 /* UbuntuRegular.ttf */,
+				016062C62BF101C50063D4A3 /* UbuntuBold.ttf */,
+			);
+			name = UbuntuFont;
+			path = ../../../Downloads/UbuntuFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				016062A32BF0C0490063D4A3 /* LaunchScreen.storyboard in Resources */,
+				016062CF2BF101C50063D4A3 /* UbuntuBold.ttf in Resources */,
 				016062A02BF0C0490063D4A3 /* Assets.xcassets in Resources */,
-				0160629E2BF0C0480063D4A3 /* Main.storyboard in Resources */,
+				016062CE2BF101C50063D4A3 /* UbuntuRegular.ttf in Resources */,
+				016062CC2BF101C50063D4A3 /* UbuntuMedium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +228,22 @@
 				0160629B2BF0C0480063D4A3 /* ViewController.swift in Sources */,
 				016062972BF0C0480063D4A3 /* AppDelegate.swift in Sources */,
 				016062992BF0C0480063D4A3 /* SceneDelegate.swift in Sources */,
+				016062C12BF0D64C0063D4A3 /* NextViewController.swift in Sources */,
+				016062BD2BF0CB650063D4A3 /* MakeCircle.swift in Sources */,
+				016062B92BF0C66F0063D4A3 /* CellProtocol.swift in Sources */,
+				016062AE2BF0C1960063D4A3 /* ModelSection.swift in Sources */,
+				016062BB2BF0C7630063D4A3 /* NextCollectionViewCell.swift in Sources */,
+				016062D62BF108020063D4A3 /* Font.ext.swift in Sources */,
+				016062AC2BF0C1050063D4A3 /* Model.swift in Sources */,
+				016062BF2BF0D6310063D4A3 /* BackViewController.swift in Sources */,
+				016062B62BF0C6580063D4A3 /* IconCollectionViewCell.swift in Sources */,
+				016062B12BF0C3700063D4A3 /* UIView.ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0160629C2BF0C0480063D4A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0160629D2BF0C0480063D4A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		016062A12BF0C0490063D4A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +386,6 @@
 				INFOPLIST_FILE = Dz_13/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +413,6 @@
 				INFOPLIST_FILE = Dz_13/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
